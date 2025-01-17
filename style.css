@@ -44,7 +44,11 @@ body{
     border-radius: 20px;
     border: none;
     padding:0.8rem 2rem;
-    font-family:"Lexend Deca", serif;;
+    font-family:"Lexend Deca", serif;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: grey;
 }
 .card1 button{
     color:hsl(31, 77%, 52%);
